@@ -3,3 +3,10 @@
 body{
   background-image: linear-gradient(to left, #052018, #000);
 }
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -7,6 +7,7 @@ import { LuNotebookPen } from "react-icons/lu";
 
 import img from "../assets/City.png";
 import FlightCard from "./FlightCard";
+import AccommodationCard from "./AccommodationCard";
 
 const UpcomingTripCard = () => {
   return (
@@ -81,6 +82,7 @@ const UpcomingTripCard = () => {
           </div>
         </div>
         <FlightCard />
+        <AccommodationCard />
       </div>
     </>
   );
