@@ -58,6 +58,7 @@ const JourneyPlanner = () => {
                 <option value="1-2 weeks">1-2 weeks</option>
                 <option value="More than 2 weeks">More than 2 weeks</option>
               </select>
+              {/* Calendar Arrow Icon (Left) */}
               <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
                 <LuCalendar className="text-white" />
               </div>
@@ -119,8 +120,8 @@ const JourneyPlanner = () => {
 
           {/* Continue Button */}
           <Link
-          to={"/dashboard"}
-            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold w-full py-3 rounded-lg mt-64 "
+            to={"/dashboard"}
+            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold w-full py-3 rounded-lg mt-60 flex items-center justify-center"
             onClick={() => console.log({ destination, duration, travelType })}
           >
             Continue
