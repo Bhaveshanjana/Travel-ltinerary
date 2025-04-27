@@ -8,6 +8,15 @@ import { LuNotebookPen } from "react-icons/lu";
 import img from "../assets/City.png";
 import FlightCard from "./FlightCard";
 import AccommodationCard from "./AccommodationCard";
+import ActivitiesCard from "./ActivitiyCard";
+import PlacesToVisite from "./PlacesToVisit";
+import {
+  FaHome,
+  FaSearch,
+  FaPlusCircle,
+  FaHeart,
+  FaUser,
+} from "react-icons/fa";
 
 const UpcomingTripCard = () => {
   return (
@@ -83,6 +92,31 @@ const UpcomingTripCard = () => {
         </div>
         <FlightCard />
         <AccommodationCard />
+        <ActivitiesCard />
+        <PlacesToVisite />
+
+        {/* bottom navbar */}
+        <div className="fixed bottom-0 left-0 right-0 bg-black border-t border-gray-800 h-16 flex items-center justify-around px-2 z-50">
+          <button className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-800 text-lime-400">
+            <FaHome size={24} />
+          </button>
+
+          <button className="flex items-center justify-center w-12 h-12 text-gray-400">
+            <FaSearch size={24} />
+          </button>
+
+          <button className="flex items-center justify-center w-12 h-12 text-lime-400">
+            <FaPlusCircle size={28} />
+          </button>
+
+          <button className="flex items-center justify-center w-12 h-12 text-gray-400">
+            <FaHeart size={24} />
+          </button>
+
+          <button className="flex items-center justify-center w-12 h-12 text-gray-400">
+            <FaUser size={24} />
+          </button>
+        </div>
       </div>
     </>
   );
