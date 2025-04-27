@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body{
-  background-image: linear-gradient(to left, #052018, #000);
+  background-image: linear-gradient(to right, #05271d, #0e0e0e);
 }
 .scrollbar-hide::-webkit-scrollbar {
   display: none;

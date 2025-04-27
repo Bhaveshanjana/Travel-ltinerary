@@ -6,7 +6,7 @@ import { PiPersonSimpleHikeDuotone } from "react-icons/pi";
 
 export default function TokyoItinerary() {
   return (
-    <div className="bg-black  p-1">
+    <div className=" p-1 h-[75vh]">
       <div className="max-w-lg mx-auto">
         {/* Header */}
         <div className="flex items-center my-6">
@@ -35,7 +35,7 @@ export default function TokyoItinerary() {
                   className="h-full w-full object-cover"
                 />
               </div>
-              <div className="w-2/3  ml-1 mt-2 space-y-0.5">
+              <div className="w-2/3 p-1 ml-1 mt-2 space-y-0.5">
                 <h2 className="text-white text-xs font-semibold">
                   Senso-ji Temple & Nakamise Shopping Street Senso-ji
                 </h2>
