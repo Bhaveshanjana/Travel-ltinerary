@@ -16,16 +16,20 @@ import { FaPlus } from "react-icons/fa6";
 import { IoIosHeartEmpty } from "react-icons/io";
 import { FiUser } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import LightMode from "./LightMode";
 
 const UpcomingTripCard = () => {
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-r from-[#05271d] to-[#0e0e0e] p-6 flex flex-col items-start">
+      <div className="min-h-screen bg-gradient-to-r  from-[var(--bg-primary)] to-[var(--bg-secondary)] p-6 flex flex-col items-start">
         {/* Header */}
-        <div className="flex items-center justify-between w-full mb-6">
+        <LightMode />
+        <div className=" flex items-center justify-between w-full mb-6">
           <div>
-            <h1 className="text-2xl font-bold text-white">Hello Chhavi!</h1>
-            <p className="text-white">Ready for the trip?</p>
+            <h1 className="text-2xl font-bold text-[var(--text-primary)]">
+              Hello Chhavi!
+            </h1>
+            <p className="text-[var(--text-primary)]">Ready for the trip?</p>
           </div>
           <div className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center text-white font-bold">
             C
@@ -33,7 +37,7 @@ const UpcomingTripCard = () => {
         </div>
 
         {/* Title Section  */}
-        <h2 className="text-lg font-semibold text-white mb-4">
+        <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-4">
           Your Upcoming Trip
         </h2>
 
@@ -97,7 +101,7 @@ const UpcomingTripCard = () => {
         <PlacesToVisite />
 
         {/* bottom Tab Bar */}
-        <div className="fixed bottom-0 left-0 right-0 bg-[#05271d] border-t border-gray-800 h-14 flex items-center justify-around px-2 z-50">
+        <div className="fixed bottom-0 left-0 right-0 bg-[var(--bg-primary)] border-t border-gray-800 h-14 flex items-center justify-around px-2 z-50">
           <button className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-800 text-lime-400">
             <FiHome size={24} />
           </button>

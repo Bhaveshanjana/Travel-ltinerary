@@ -10,8 +10,8 @@ const AccommodationCard = () => {
     <div className="w-full mx-auto ">
       {/* Title */}
       <div className="flex justify-between mb-4 mt-9">
-        <h2 className="text-lg font-semibold text-white ">Accommodation</h2>
-        <p className="text-[#f3ff4d] underline underline-offset-4 text-sm">
+        <h2 className="text-lg font-semibold text-[var(--text-primary)] ">Accommodation</h2>
+        <p className=" text-[var(--text-secondary)] underline underline-offset-4 text-sm font-semibold">
           See all
         </p>
       </div>
@@ -19,7 +19,7 @@ const AccommodationCard = () => {
       {/* Card list horizontal */}
       <div className="flex overflow-x-scroll space-x-4 pb-4 scrollbar-hide ">
         {/* Card 1 */}
-        <div className="min-w-[260px] bg-[#4b554df9] text-white rounded-2xl shadow-md overflow-hidden">
+        <div className="min-w-[260px] bg-[var(---bg-secondary-light)] text-[var(--text-primary)] rounded-2xl shadow-md overflow-hidden">
           <div className="relative">
             <img
               src={img}
@@ -33,7 +33,7 @@ const AccommodationCard = () => {
           </div>
           <div className="p-4">
             <h3 className="font-bold text-lg">Shinagawa Prince Hotel</h3>
-            <div className="mt-2 text-sm text-white">
+            <div className="mt-2 text-sm text-[var(--text-primary)]">
               <p>
                 <span className="font-semibold">Check in:</span> 26.01.2025,
                 11:15 pm
@@ -54,7 +54,7 @@ const AccommodationCard = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="min-w-[260px] bg-[#4b554df9]  text-white rounded-2xl shadow-md overflow-hidden">
+        <div className="min-w-[260px] bg-[var(---bg-secondary-light)]  text-[var(--text-primary)] rounded-2xl shadow-md overflow-hidden">
           <div className="relative">
             <img
               src={img2}
@@ -68,7 +68,7 @@ const AccommodationCard = () => {
           </div>
           <div className="p-4">
             <h3 className="font-bold text-lg">Mercure Tokyo Hotel</h3>
-            <div className="mt-2 text-sm text-white">
+            <div className="mt-2 text-sm text-[var(--text-primary)]">
               <p>
                 <span className="font-semibold">Check in:</span> 28.01.2025,
                 6:00 pm

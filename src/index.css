@@ -10,3 +10,29 @@ body{
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Add these to your global CSS */
+:root {
+  --primary-dark: #05271d;
+  --secondary-dark: #0e0e0e;
+  --primary-light: #f8fafc;
+  --secondary-light: #e2e8f0;
+  --text-blue: #204fd1;
+}
+
+.dark {
+  --bg-primary: var(--primary-dark);
+  --bg-secondary: var(--secondary-light);
+  --text-primary: #ffffff;
+  --text-secondary: #d1d5db;
+  --card-bg: #1e293b;
+}
+
+.light {
+  --bg-primary: var(--primary-light);
+  --bg-secondary: var(--secondary-light);
+  --text-primary: #1e293b;
+  --text-secondary: #334155;
+  --card-bg: #ffffff;
+  --text-secondary: var(--text-blue);
+}

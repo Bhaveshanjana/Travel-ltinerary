@@ -13,8 +13,8 @@ const ActivitiesCard = () => {
   return (
     <>
       <div className="flex w-full justify-between mx-auto items-center mt-5 mb-4">
-        <h2 className="text-lg font-semibold text-white">Activities</h2>
-        <p className="text-lime-400 text-sm border-b-2 border-yellow-500">
+        <h2 className="text-lg font-semibold text-[var(--text-primary)]">Activities</h2>
+        <p className="text-[var(--text-secondary)] text-sm border-b-2 text-[var(--text-secondary)]">
           See all
         </p>
       </div>
