@@ -16,7 +16,7 @@ const ActivitiesCard = () => {
         <h2 className="text-lg font-semibold text-[var(--text-primary)]">
           Activities
         </h2>
-        <p className="text-[var(--text-secondary)] text-sm border-b-2 ">
+        <p className="text-[var(--highlight)] text-sm border-b-2 ">
           See all
         </p>
       </div>

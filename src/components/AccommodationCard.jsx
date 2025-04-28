@@ -11,7 +11,7 @@ const AccommodationCard = () => {
       {/* Title */}
       <div className="flex justify-between mb-4 mt-9">
         <h2 className="text-lg font-semibold text-[var(--text-primary)] ">Accommodation</h2>
-        <p className=" text-[var(--text-secondary)] underline underline-offset-4 text-sm font-semibold">
+        <p className=" text-[var(--highlight)] underline underline-offset-4 text-sm font-semibold">
           See all
         </p>
       </div>
