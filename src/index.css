@@ -11,21 +11,26 @@ body{
   scrollbar-width: none;
 }
 
-/* Add these to your global CSS */
 :root {
   --primary-dark: #05271d;
   --secondary-dark: #0e0e0e;
-  --primary-light: #f8fafc;
-  --secondary-light: #e2e8f0;
+  --primary-light: #ffffff;
+  --secondary-light: #f5f5f5;
   --text-blue: #204fd1;
+  --card-bg: #ffffff;
+  --highlight: #2563eb;
+  --input-bg: #f0f0f0; 
 }
 
 .dark {
   --bg-primary: var(--primary-dark);
-  --bg-secondary: var(--secondary-light);
+  --bg-secondary: var(--secondary-dark);
   --text-primary: #ffffff;
   --text-secondary: #d1d5db;
   --card-bg: #1e293b;
+  --card-bg: #4b554df9; 
+  --input-bg: #453939be;
+  --highlight: #c8fa64; 
 }
 
 .light {
@@ -34,5 +39,14 @@ body{
   --text-primary: #1e293b;
   --text-secondary: #334155;
   --card-bg: #ffffff;
+  --input-bg: #f0f0f0;     
   --text-secondary: var(--text-blue);
+}
+
+.accommodation-card {
+  background-color: var(--bg-secondary);
+}
+
+.dark .accommodation-card {
+  background-color: #4b554df9;
 }

@@ -4,6 +4,7 @@ import { LuCalendar } from "react-icons/lu";
 import { MdOutlineKeyboardArrowDown, MdFamilyRestroom } from "react-icons/md";
 import { IoIosPeople, IoMdMan, IoMdWoman } from "react-icons/io";
 import { Link } from "react-router-dom";
+import LightMode from "./LightMode";
 
 const JourneyPlanner = () => {
   const [destination, setDestination] = useState("");
@@ -13,6 +14,7 @@ const JourneyPlanner = () => {
   return (
     <>
       <div className="mt-8 mx-5 ">
+        <LightMode/>
         <h1 className="text-[22px] md:text-3xl font-bold text-white tracking-wider">
           Plan Your Journey, Your Way!
         </h1>
@@ -20,7 +22,7 @@ const JourneyPlanner = () => {
           Let's create your personalised travel experience
         </p>
       </div>
-      <div className=" flex flex-col  p-6 ">
+      <div className=" flex flex-col p-6 ">
         <div className="bg-transparent max-w-md w-full">
           {/* Destination Input */}
           <div className="mb-4">

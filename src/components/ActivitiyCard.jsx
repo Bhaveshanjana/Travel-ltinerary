@@ -13,17 +13,19 @@ const ActivitiesCard = () => {
   return (
     <>
       <div className="flex w-full justify-between mx-auto items-center mt-5 mb-4">
-        <h2 className="text-lg font-semibold text-[var(--text-primary)]">Activities</h2>
-        <p className="text-[var(--text-secondary)] text-sm border-b-2 text-[var(--text-secondary)]">
+        <h2 className="text-lg font-semibold text-[var(--text-primary)]">
+          Activities
+        </h2>
+        <p className="text-[var(--text-secondary)] text-sm border-b-2 ">
           See all
         </p>
       </div>
-      <div className="bg-[#4b554df9]  text-white p-4 rounded-xl overflow-x-scroll w-full mx-auto">
+      <div className="bg-[var(--bg-secondary)] text-[var(--text-primary)] p-4 rounded-xl overflow-x-scroll w-full mx-auto">
         <div className="flex items-center gap-2 mb-4">
-          <button className="bg-lime-400 text-black px-3 py-1 rounded-lg text-sm font-semibold">
+          <button className="bg-[var(--highlight)] text-[var(--bg-primary)] px-3 py-1 rounded-lg text-sm font-semibold">
             Day Plan
           </button>
-          <button className="border border-lime-400 text-lime-400 px-3 py-1 rounded-lg text-sm font-semibold bg-[#2a2a2a]">
+          <button className="border border-[var(--highlight)] text-[var(--highlight)] px-3 py-1 rounded-lg text-sm font-semibold bg-[var(--bg-primary)]">
             14 Activities
           </button>
         </div>
@@ -36,18 +38,18 @@ const ActivitiesCard = () => {
                 day.active ? "flex-row" : "flex-col"
               } items-center justify-center rounded-lg min-w-[60px] overflow-hidden ${
                 day.active
-                  ? "border border-lime-400"
-                  : "bg-[#2a2a2a] text-gray-400"
+                  ? "border border-[var(--highlight)]"
+                  : "bg-[var(--bg-primary)] text-[var(--text-secondary)]"
               }`}
             >
               {day.active ? (
                 <>
-                  <div className="bg-lime-400 text-black flex flex-col justify-center py-2 h-full ">
-                    <span className="text-[15px] font-semibold rotate-[-90deg] ">
+                  <div className="bg-[var(--highlight)] text-[var(--bg-primary)] flex flex-col justify-center py-2 h-full">
+                    <span className="text-[15px] font-semibold rotate-[-90deg]">
                       {day.month}
                     </span>
                   </div>
-                  <div className=" text-white flex flex-col justify-center items-center px-1 mr-2 bg-[#2a2a2a] h-full">
+                  <div className="text-[var(--text-primary)] flex flex-col justify-center items-center px-1 mr-2 bg-[var(--bg-primary)] h-full">
                     <span className="text-xs font-light">{day.weekday}</span>
                     <span className="text-xs font-bold">{day.day}</span>
                   </div>

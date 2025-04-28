@@ -19,7 +19,7 @@ const AccommodationCard = () => {
       {/* Card list horizontal */}
       <div className="flex overflow-x-scroll space-x-4 pb-4 scrollbar-hide ">
         {/* Card 1 */}
-        <div className="min-w-[260px] bg-[var(---bg-secondary-light)] text-[var(--text-primary)] rounded-2xl shadow-md overflow-hidden">
+        <div className="min-w-[260px] accommodation-card text-[var(--text-primary)] border border-[var(--text-primary)] rounded-2xl shadow-md overflow-hidden">
           <div className="relative">
             <img
               src={img}
@@ -54,7 +54,7 @@ const AccommodationCard = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="min-w-[260px] bg-[var(---bg-secondary-light)]  text-[var(--text-primary)] rounded-2xl shadow-md overflow-hidden">
+        <div className="min-w-[260px]  accommodation-card text-[var(--text-primary)] border border-[var(--text-primary)] rounded-2xl shadow-md overflow-hidden">
           <div className="relative">
             <img
               src={img2}

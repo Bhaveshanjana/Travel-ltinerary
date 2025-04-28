@@ -21,7 +21,7 @@ import LightMode from "./LightMode";
 const UpcomingTripCard = () => {
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-r  from-[var(--bg-primary)] to-[var(--bg-secondary)] p-6 flex flex-col items-start">
+      <div className="min-h-screen bg-gradient-to-r from-[var(--bg-primary)] to-[var(--bg-secondary)] p-6 flex flex-col items-start">
         {/* Header */}
         <LightMode />
         <div className=" flex items-center justify-between w-full mb-6">
