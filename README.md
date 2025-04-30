@@ -1,12 +1,28 @@
-# React + Vite
+# 📱 Travel-Itinerary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Travel-Itinerary** is a mobile-focused UI project created as part of an assignment to demonstrate Figma-to-code conversion skills.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 About the Project
 
-## Expanding the ESLint configuration
+The goal of this assignment is to translate a complex Figma design into a responsive and pixel-accurate mobile UI. The Figma file only includes a **mobile view**, so the implementation is optimized for **small-screen devices**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎯 Key Focus Areas
+
+- Accurate Figma-to-code UI replication
+- Mobile responsiveness across all small devices
+- Support for **dark mode UI**
+- Clean and organized component structure
+
+---
+
+## 🧪 How to View the Project
+
+To view the project on your local system:
+
+```bash
+git clone https://github.com/Bhaveshanjana/Travel-ltinerary
+cd Travel-Itinerary
+npm install
+npm run dev
